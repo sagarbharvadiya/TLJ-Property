@@ -1,0 +1,692 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.container-fuild {
+    width: 90%;
+    margin: auto;
+}
+
+.top-header {
+    color: #fff;
+    padding: 10px 0;
+}
+
+.logo img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.menu-toggle {
+    display: none;
+    cursor: pointer;
+}
+
+.navbar {
+    display: block;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+    display: block;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    margin: 0 15px;
+}
+
+.top-header {
+    margin: 20px 0;
+}
+
+.logo img {
+    max-width: 200px;
+    width: 100%;
+    height: 100%;
+}
+
+nav ul {
+    justify-content: end;
+    align-items: center;
+    margin: auto;
+}
+
+li {
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.banner {
+    background: url(./img/home-bg.png)no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    height: 600px;
+}
+
+.banner h2 {
+    margin: 50px 0;
+    text-align: center;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 65px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f8f9fa;
+    border-radius: 50px;
+}
+
+input[type="text"] {
+    padding: 15px;
+    background: transparent;
+    border: none;
+    border-radius: 4px;
+}
+
+.search-icon {
+
+    background-color: rgb(216, 216, 71);
+    padding: 15px;
+    color: rgb(58, 58, 206);
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.hero-bottom {
+    background: #00365c;
+    border-radius: 10px;
+}
+
+.hero-bottom ul a {
+    color: #fff;
+    padding-left: 30px !important;
+    margin-bottom: 0px !important;
+
+}
+
+.search-main {
+    background: #f8f9fa;
+    margin-bottom: 10px;
+    margin-left: 2px;
+}
+
+.custom-dropdown {
+    position: relative;
+}
+
+.custom-dropdown select {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    padding-right: 30px;
+    /* Adjust the padding to make room for the arrow */
+}
+
+.custom-dropdown::after {
+    content: '\25BC';
+    /* Unicode character for downward arrow */
+    font-size: 12px;
+    color: #555;
+    /* Adjust the color as needed */
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+}
+
+.custom-dropdown {
+    border: none !important;
+
+}
+
+select {
+    font-weight: 700 !important;
+    line-height: 28px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #444;
+    border: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.search {
+    background-color: #74b927;
+    width: 100%;
+}
+
+.form-control {
+    background: transparent;
+    border: transparent;
+}
+
+.search-bar-list-unstyled {
+    margin-top: 10px;
+}
+
+.services {
+    background-color: #00365c;
+}
+
+.services-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(6rem, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.services h2 {
+    color: #fff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    font-weight: 800;
+    text-align: center;
+    padding: 20px 0px;
+
+
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 13.7699px;
+    padding: 10px;
+    width: 150px;
+    min-width: 150px;
+    height: 120px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.image-container {
+    width: 45%;
+    margin: auto;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.box p {
+    margin-bottom: 0;
+    font-weight: 600;
+    font-size: 13px;
+    margin-top: 10px;
+    text-align: center;
+    color: #000;
+    font-family: "Poppins";
+}
+
+.projects h2 {
+    color: #58585a;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 51px;
+}
+
+.projects h2 span {
+    font-weight: 700;
+}
+
+.residential-box {
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px;
+    position: relative;
+    transition: all 300ms ease-in;
+}
+
+.bg-grey {
+    background: rgba(249, 249, 249, 0.7);
+}
+
+.h255 {
+    width: 100%;
+    height: 255px;
+    position: relative;
+    display: block;
+}
+
+.projects .inner {
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.inner h6 {
+    color: #fff;
+    font-weight: 700;
+    /* text-shadow: 1px 1px black; */
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.inner a {
+    color: #fff;
+    font-weight: 500;
+    width: 125px;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.slick-next::before,
+.slick-prev::before {
+    content: "";
+    background: url(https://tljproperty.in/images/Black-Arrow.svg);
+    background-repeat: no-repeat;
+    padding: 0 10px !important;
+    width: 35px;
+    height: 35px;
+    font-size: 30px;
+    opacity: 1 !important;
+    display: block;
+    background-size: 34px;
+}
+
+.slick-prev {
+    /* margin-right: 30px; */
+    transform: rotate(180deg);
+}
+
+.slick-prev {
+    right: 8%;
+    top: -30px;
+    left: auto;
+}
+
+.slick-next {
+    top: -35px;
+    right: 30px;
+
+}
+
+.bg-blue {
+    background: #00365c;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.feature-box .inner {
+    padding: 10px 5px;
+    /* height: 100px; */
+}
+
+.feature-box .inner .newDeveloperDesign {
+    border: 1px solid black;
+    border-radius: 9px;
+    background: white;
+    padding: 4px 3px;
+    gap: 7px;
+    transition: all 300ms ease-in;
+}
+
+.feature-box .inner .img-div {
+    border-radius: 100%;
+    padding: 10px 0;
+    height: 60px;
+    width: 60px;
+    overflow: hidden;
+    border: 1px solid #00000026;
+}
+
+.feature-box h5 {
+    color: #000;
+    font-weight: 700;
+    font-size: 11px;
+}
+
+.feature-box h6 {
+    color: #000;
+    font-weight: 700;
+    font-size: 12px;
+    margin-bottom: 1px;
+}
+
+.Featured .slick-next::before,
+.Featured .slick-prev::before {
+    content: "";
+    opacity: 1 !important;
+    background-image: url(https://tljproperty.in/images/White-Arrow.svg) !important;
+}
+
+.innerHeadingSection {
+    position: absolute;
+    bottom: 0px;
+    padding-left: 23%;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    /* text-shadow: 1px 1px gray; */
+    /* background: #cfcfcfa1; */
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) .36%, rgba(0, 0, 0, 0.8) 78.52%);
+    padding-top: 10px;
+}
+
+section {
+    margin: 20px 0;
+}
+
+.innerHeadingSection h6 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.Cities .feature-box {
+    /* background: #fff; */
+    border-radius: 12px;
+    overflow: hidden;
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+.Cities .exploreImageSection {
+    width: 50%;
+    height: 130px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.exploreDetailSection {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.exploreRealEstateItem:hover {
+    box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.584);
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.BHK .bg-grey {
+    padding-top: 50px;
+}
+
+.detail-sec {
+    background-color: #81c03c;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(4rem, 1fr));
+    padding-block: 20px !important;
+    gap: 10px;
+    padding: 0 100px;
+}
+
+.bhkChoiceItem {
+    background: white;
+    height: 140px;
+    border-radius: 11px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 300ms ease-in;
+}
+
+.bhkChoiceTextSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bhkChoiceTextSection div {
+    font-weight: 700;
+}
+
+.bhkChoiceTextSection p {
+    font-weight: 400;
+}
+
+.bhkChoiceItem:hover {
+    box-shadow: 0px 0px 10px white;
+}
+
+h2 span {
+    font-weight: 700;
+}
+
+footer {
+    background: #f9f9f9;
+    padding-top: 16px;
+}
+
+.projects-link a {
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.main-footer {
+    margin-top: 25px;
+}
+
+.main-footer p {
+    color: #58585a;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.main-footer h4 {
+    color: #58585a;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 18px;
+}
+
+.main-footer .footlinks p a {
+    color: #58585a;
+    font-weight: 400;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.footlinks p {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.main-content .footaddr a {
+    color: #58585a;
+    font-weight: 400;
+    font-size: 12px;
+    text-decoration: underline;
+    margin-top: 10px;
+}
+
+.footaddr i {
+    color: #005a99;
+    margin-right: 10px;
+    font-size: 19px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.footaddr a {
+    color: #58585a;
+    font-weight: 400;
+    font-size: 12px;
+    text-decoration: underline;
+    margin-top: 10px;
+}
+
+.copyright {
+    background: #00365c;
+    padding: 8px;
+    font-weight: 400;
+    font-size: 12px;
+    color: #fff;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.contect-us {
+    margin: 0;
+}
+
+.discover-dream {
+    background: #74b927;
+    padding: 7px 20px 10px 10px;
+    position: relative;
+}
+
+.discover-dream p {
+    color: #fff;
+    text-transform: capitalize;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.discover-dream p span {
+    font-weight: 700;
+}
+
+.custom-btn-secondary {
+    background: #00365c;
+    border-radius: 50px;
+    padding: 10px 15px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 14px;
+    text-transform: uppercase;
+    border: 2px solid #00365c;
+}
+
+.discover-dream img {
+    margin-bottom: -12px;
+}
+
+/* hover effects */
+.search-bar-list-unstyled a:hover {
+    background-color: #74b927;
+    padding: 0px 6px;
+    border-radius: 10px;
+    color: white !important;
+}
+
+.hero-section ul li a {
+    transition: all 100ms ease-in;
+}
+
+.services-section .box:hover {
+    background-color: #74b927;
+}
+
+.services-section .box {
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.services-section .box:hover p {
+    color: #fff;
+}
+
+.residential-box:hover {
+    box-shadow: 0px 0px 10px gray;
+}
+
+.newDeveloperDesign:hover {
+    box-shadow: 0px 0px 7px white;
+}
+
+a,
+img,
+img-div {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .banner {
+        height: 400px;
+    }
+
+    .logo {
+        position: relative;
+    }
+
+    .menu-toggle {
+        display: block;
+        position: absolute;
+        top: -27px;
+        right: 0;
+    }
+
+    .nav-list {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 20px;
+        left: 0;
+
+        background-color: #333;
+        text-align: center;
+    }
+
+    .nav-list.show {
+        display: flex;
+        padding: 0;
+    }
+
+    .nav-list li {
+        margin: 15px 0;
+    }
+
+    .nav-list.show a {
+        color: #fff;
+    }
+
+    h2 span {
+        display: block;
+    }
+
+    .slick-prev {
+        right: 18.9%;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+}
